@@ -10,7 +10,7 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 ####################################################
-CTRL C-
+#CTRL C-
 ####################################################
 trap ctrl_c INT
 ctrl_c() {
@@ -360,7 +360,7 @@ pip2 install lolcat
 pkg install toilet
 pkg install php
 pkg install git
-git clone  https://github.com/DarknessCyberTeam/BAJINGANv6
+git clone https://github.com/DarknessCyberTeam/BAJINGANv6
 
 echo " Cara Menjalankannya Ketik : "
 echo " $ cd BAJINGANv6 "
