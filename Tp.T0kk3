@@ -10,7 +10,7 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 ####################################################
-#CTRL C-
+CTRL C-
 ####################################################
 trap ctrl_c INT
 ctrl_c() {
@@ -26,12 +26,12 @@ echo $aqua"[#]> Erick Gans Eaaa ... "
 read enter
 exit
 }
-echo $lime"============================================================"
+============================================================
 echo $aqua"Author : Tp.T00k3
 echo $aqua"[ FRIEND ] : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y - and ALL Member Lul'zSec Indo Team" 
 echo $aqua"Team : Lulz'Sec Indo Team"
 echo $aqua"Thanks To : Kutu Buku Cyber Network"
-echo $lime"============================================================"
+============================================================
 echo $lime" 01) AOCDEFACE"
 echo $lime" 02) D-TECT"
 echo $lime" 03) RECONDOG"
