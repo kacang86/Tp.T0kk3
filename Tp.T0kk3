@@ -235,7 +235,8 @@ pkg install php
 pkg install git
 git clone https://github.com/alintamvanz/diejoubu
 
-echo " Cara Menjalankannya Ketik : " echo " $ cd diejoubu
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd diejoubu "
 echo " $ cd v1.2 "
 echo " $ php daijobu.php "
 
