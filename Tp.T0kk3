@@ -26,8 +26,8 @@ read enter
 exit
 }
 echo $green"============================================================"
-echo $cyan"Author : Tp.T00k3
-echo $cyan"FRIEND : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y - and ALL Member Lul'zSec Indo Team" 
+echo $cyan"Author : Tp.T00k3"
+echo $cyan"Friend : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y - and ALL Member Lul'zSec Indo Team" 
 echo $cyan"Team : Lulz'Sec Indo Team"
 echo $cyan"Thanks To : Kutu Buku Cyber Network"
 echo $green"============================================================"
