@@ -1,0 +1,494 @@
+
+#!/system/xbin/bash
+# Bersihkan Layar
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+####################################################
+CTRL C-
+####################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo $red"[#]> (Ctrl + C ) Detected,
+Trying To Exit ... "
+sleep 1
+echo ""
+echo $yellow"[#]> Thank You For Using My Tools ... "
+sleep 1
+echo ""
+echo $aqua"[#]> Erick Gans Eaaa ... "
+read enter
+exit
+}
+echo $lime"============================================================"
+echo $aqua"Author : Tp.T00k3
+echo $aqua"[ FRIEND ] : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y - and ALL Member Lul'zSec Indo Team" 
+echo $aqua"Team : Lulz'Sec Indo Team"
+echo $aqua"Thanks To : Kutu Buku Cyber Network"
+echo $lime"============================================================"
+echo $lime" 01) AOCDEFACE"
+echo $lime" 02) D-TECT"
+echo $lime" 03) RECONDOG"
+echo $lime" 04) SQLMAP"
+echo $lime" 05) AdminFinder"
+echo $lime" 06) ArchLinux"
+echo $lime" 07) UBUNTU"
+echo $lime" 08) KaliLinuxNetHunter"
+echo $lime" 09) METASPLOIT"
+echo $lime" 10) DIEJOUBU"
+echo $lime" 11) ATSCAN"
+echo $lime" 12) FB Crack(MBF)"
+echo $lime" 13) ROUTERSPLOIT"
+echo $lime" 14) Hash-Buster"
+echo $lime" 15) HAKKU"
+echo $lime" 16) T00Ls-B4J1N64Nv6"
+echo $lime" 17) IPGeoLocation"
+echo $lime" 18) WEEMAN"
+echo $lime" 19) OSIF"
+echo $lime" 20) InstaBOT"
+echo $aqua" 21) Exit"
+read -p " root@ErickGansSangad:~ " bro;
+
+if [ $bro = 1 ] || [ $bro = 01 ]
+then
+clear
+echo $red" Installing AOCDEFACE "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+git clone https://github.com/Amriez/AOCDEFACE.git
+
+echo " Untuk Menjalankannya Ketik : "
+echo " $ cd AOCDEFACE "
+echo " $ sh install.sh "
+echo " $ sh AOC.sh "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 2 ] || [ $bro = 02 ]
+then
+clear
+echo $red" Installing D-TECT "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/shawarkhanethicalhacker/D-TECT
+
+echo " Untuk Menjalankannya Ketik : "
+echo " $ cd D-TECT "
+echo " $ chmod +x d-tect.py "
+echo " $ python2 d-tect.py "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 3 ] || [ $bro = 03 ]
+then
+clear
+echo $red" Installing RECONDOG "
+sleep 1
+pkg update && pkg upgrade
+pkg install python
+pkg install python2
+pkg install git
+git clone https://github.com/UltimateHackers/ReconDog
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd ReconDog "
+echo " $ chmod +x dog.py "
+echo " $ python2 dog.py "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 4 ] || [ $bro = 04 ]
+then
+clear
+echo $red" Installing SQLMAP "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/sqlmapproject/sqlmap
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd sqlmap "
+echo " $ python2 sqlmap.py -u URL Target --dbs "
+
+echo " NOTE : (--dbs) bisa diganti dengan yg lain seperti (--tables) (--columns) (--dump) "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 5 ] || [ $bro = 05 ]
+then
+clear
+echo $red" Installing AdminFinder "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/AdheBolo/AdminFinder
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd AdminFinder "
+echo " $ chmod 777 AdminFinder.py "
+echo " $ python2 AdminFinder.py "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 06 ] || [ $bro = 6 ]
+then
+clear
+echo $red" Installing ArchLinux "
+sleep 1
+pkg update && pkg upgrade
+pkg install git 
+git clone https://github.com/sdrausty/termux-archlinux
+
+echo " Buka direktori/file nya,, Caranya : "
+echo " $ cd termux-archlinux "
+echo " Selanjutnya kalian lakukan penginstallan, Caranya : "
+echo " $ ./setupTermuxArch.sh "
+echo " Tunggu proses penginstallan,, penginstalan ini cukup lama sekitar 400 MB "
+echo " Lama Cepatnya Penginstallan Tergantung Dengan Jaringan Anda "
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd arc "
+echo " $ ./startarch "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 07 ] || [ $bro = 7 ]
+then
+clearecho $red" Installing UBUNTU "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install wget
+pkg install proot
+git clone https://github.com/Neo-Oli/termux-ubuntu.git
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd termux-ubuntu "
+echo " $ chmod +x ubuntu.sh "
+echo " $ ./ubuntu.sh "
+echo " $ ./start-ubuntu.sh "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 08 ] || [ $bro = 8 ]
+then
+clear
+echo $red" Installing KaliLinuxNetHunter "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+git clone https://github.com/Cyb3r3x3r/kaliLinuxNethunter-termux.git
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd kaliLinuxNethunter-termux "
+echo " $ ./kalinethunter "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 09 ] || [ $bro = 9 ]
+then
+clear
+echo $red" Installing METASPLOIT "
+sleep 1
+pkg update && pkg upgrade
+pkg install python
+pkg install python2
+pkg install git
+pkg install wget
+pkg install ruby
+pkg install curl
+curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ chmod 7777 metasploit.sh "
+echo " $ ./metasploit.sh "
+echo " Tunggu Hingga Selesai Prosesnya "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 10 ] || [ $bro = 10 ]
+then
+clear
+echo $red" Installing DIEJOUBU "
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install git
+git clone https://github.com/alintamvanz/diejoubu
+
+echo " Cara Menjalankannya Ketik : " echo " $ cd diejoubu
+echo " $ cd v1.2 "
+echo " $ php daijobu.php "
+
+echo $lime" B E R H A S I L_C O K "
+fi
+
+if [ $bro = 11 ] || [ $bro = 11 ]
+then
+clear
+echo $red" Installing ATSCAN "
+sleep 1
+pkg install git perl
+git clone https://github.com/AlisamTechnology/ATSCAN.git
+cpan install URI::Escape
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 12 ] || [ $bro = 12 ]
+then
+clear
+echo $red" Installing FB Crack(MBF) "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+pip2 install --upgrade pip
+pip2 install mechanize
+git clone https://github.com/hnov7/mbf
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd mbf "
+echo " $ python2 mbf.py "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 13 ] || [ $bro = 13 ]
+then
+clear
+echo $red" Installing ROUTERSPLOIT "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+pip2 install requests
+git clone https://github.com/reverse-shell/routersploit.git
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd routersploit "
+echo " $ pip install -r requirements.txt "
+echo " $ termux-fix-shebang rsf.py "
+echo " $ cd routersploit "
+echo " $ ./ rsf.py "
+
+echo " use scanners/autopwn "
+echo " show options "
+echo " set target (IP Address) "
+echo " set port 8080 "
+echo " set threads 10 "
+
+echo " $ -check "
+echo " $ -run "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 14 ] || [ $bro = 14 ]
+then
+clear
+echo $red" Installing Hash-Buster "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/UltimateHackers/Hash-Buster
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd Hash-Buster "
+echo " $ python2 hash.py "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 15 ] || [ $bro = 15 ]
+then
+clear
+echo $red" Installing HAKKU "
+sleep 1
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+mkdir vasu
+git clone https://github.com/4shadoww/hakkuframework
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd hakkuframework"
+echo " $ chmod +x hakku "
+echo " $ python hakku "
+
+echo " $ show modules "
+echo " $ use whois "
+echo " $ show options "
+echo " $ set target (Website Target) "
+
+echo " CONTOH "
+echo " $ set target www.google.com "
+echo " $ run "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 16 ] || [ $bro = 16 ]
+then
+clear
+echo $red" Installing T00Ls-B4J1N64Nv6 "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pip2 install termcolor
+pip2 install lolcat
+pkg install toilet
+pkg install php
+pkg install git
+git clone  https://github.com/DarknessCyberTeam/BAJINGANv6
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd BAJINGANv6 "
+echo " $ sh BAJINGAN.sh "
+
+echo " Username : BAJINGAN "
+echo " Password : Gans "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 17 ] || [ $bro = 17 ]
+then
+clear
+echo $red" Installing IPGeoLocation "
+sleep 1
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+git clone https://github.com/maldevel/IPGeoLocation
+cd IPGeoLocation
+pip install -r requirements.txt
+chmod +x ipgeolocation.py
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd IPGeoLocation "
+echo " $ python ipgeolocation.py "
+
+echo " CONTOH "
+echo " $ python ipgeolocation.py -t (IP Address) "
+
+echo " NOTE : Untuk Mencari IP Address Sebuah Website Lewat Termux "
+echo " Ketik ping Didepan Nama Site "
+echo " Contoh : ping www.google.com "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 18 ] || [ $bro = 18 ]
+then
+clear
+echo $red" Installing WEEMAN "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/evait-security/weeman.git
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd weeman "
+echo " $ python2 weeman.py "
+echo " $ show "
+echo " $ set url https://www.facebook.com "
+echo " $ set action_url https://www.facebook.com "
+echo " $ show "
+echo " Buka New Session Baru (new tab) "
+echo " $ ifconfig "
+echo " Jika Selesai,, Copy No Address Yg Tertera,, Jangan Sampai Salah,, Karena Ada 2 Address Disitu "
+echo " Setelah Copy No Address,, Buka Session Pertama Tadi,, Lalu Tulis "
+echo " $ run "
+echo " Copas No Address Tadi Ke Target "
+echo " Contoh : 125.25.175.88:8080 "
+NOTE : Ingat Harus Di Kasih Port > :8080 "
+echo " Jika Sudah Dibuka Si Admin Saat Dia Login Nanti Email Dan Password Tertera Serta Data2 Akun Target "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 19 ] || [ $bro = 19 ]
+then
+clear
+echo $red" Installing OSIF "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+git clone https://github.com/ciku370/OSIF
+cd OSIF
+pip2 install -r requirements.txt
+
+echo " Cara Menjalankannya Ketik : "
+echo " cd OSIF "
+echo " python2 osif.py "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 20 ] || [ $bro = 20 ]
+then
+clear
+echo $red" Installing InstaBOT "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/instagrambot/instabot
+cd instabot
+pip install -U instabot
+cd examples
+mv multi_script_CLI.py main.py
+
+echo " Cara Menjalankannya Ketik : "
+echo " python2 main.py "
+
+echo " NOTE : Bagi Yg Belum Install Pip Kalian Bisa Menginstallnya Dengan Perintah : "
+echo " $ apt-get install python-pip "
+echo " ATAU "
+echo " $ pip2 install --upgrade pip "
+
+echo " Nah Nanti Kalian Akan Diminta Mengisi Username Dan Password,, Terima Kasih "
+
+echo $lime" BERHASIL_COK "
+fi
+
+if [ $bro = 21 ] || [ $bro = 21 ]
+then
+echo $aqua" Thanks To Team Lulz'Sec Indo Team "
+sleep 1
+echo $aqua" Kutu Buku Cyber Team Network "
+sleep 1
+echo $aqua" and ALL Team Indonesian Cyber "
+echo $aqua" Created Erick Gans Sangad "
+sleep 1
+echo $aqua" Sae Lu Biji Onta :V "
+sleep 1
+echo $aqua" Terima Kasih Yg Udah Nginstall Tools Gak Bermutu Ini Eaa :V "
+sleep 1
+echo $aqua" Assalamualaikum Ster "
+sleep 1
+echo $lime" Copyright © 2018 ErickGansSangad All Right Reserved "
+exit
+fi
