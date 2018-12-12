@@ -39,71 +39,39 @@ echo $cyan"  ╚═╝██╚═╝╚══════════╝╚═�
 echo $green"========================================================"
 echo $cyan"| Author : Tp.T00k3                                    |"
 echo $cyan"| Friend : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y         |"
+echo $cyan"|              Zee - Mr.XTOP4NG - Rion Ops             |"
 echo $cyan"| Team : Lulz'Sec Indo Team -  Kutu Buku Cyber Network |"
+echo $cyan"|                      We Are Otaku                    |"
 echo $green"========================================================"
+
 echo $cyan" DIPILIH COK :)"
 
-echo $green" 00) DDOS"
-echo $green" 01) AOCDEFACE"
-echo $green" 02) D-TECT"
-echo $green" 03) RECONDOG"
-echo $green" 04) SQLMAP"
-echo $green" 05) AdminFinder"
-echo $green" 06) ArchLinux"
-echo $green" 07) UBUNTU"
-echo $green" 08) KaliLinuxNetHunter"
-echo $green" 09) METASPLOIT"
-echo $green" 10) DIEJOUBU"
-echo $green" 11) ATSCAN"
-echo $green" 12) FB Crack(MBF)"
-echo $green" 13) ROUTERSPLOIT"
-echo $green" 14) Hash-Buster"
-echo $green" 15) HAKKU"
-echo $green" 16) T00Ls-B4J1N64Nv6"
-echo $green" 17) IPGeoLocation"
-echo $green" 18) WEEMAN"
-echo $green" 19) OSIF"
-echo $green" 20) InstaBOT"
-echo $cyan" 21) Exit"
-read -p " root@ErickGansSangad~# " bro;
-
-if [ $bro = 0 ] || [ $bro = 00 ]
-then
-clear
-#!/system/xbin/bash
-# Bersihkan Layar
-clear
-blue='\033[34;1m'
-green='\033[32;1m'
-purple='\033[35;1m'
-cyan='\033[36;1m'
-red='\033[31;1m'
-white='\033[37;1m'
-yellow='\033[33;1m'
-####################################################
-# CTRL C-
-####################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo $red"[#]> (Ctrl + C ) Detected,
-Trying To Exit ... "
-sleep 1
-echo ""
-echo $yellow"[#]> Thank You For Using My Tools ... "
-sleep 1
-echo ""
-echo $cyan"[#]> Erick Gans Eaaa ... "
-read enter
-exit
-}
-echo $red" Kumpulan Tools DDOS "
 echo $green" 01) Hammer"
 echo $green" 02) Torshammer"
 echo $green" 03) Xerxes"
 echo $green" 04) HULK"
 echo $green" 05) LITEDDOS"
-echo $cyan" DIPILIH COK :) "
+echo $green" 06) AOCDEFACE"
+echo $green" 07) D-TECT"
+echo $green" 08) RECONDOG"
+echo $green" 09) SQLMAP"
+echo $green" 10) AdminFinder"
+echo $green" 11) ArchLinux"
+echo $green" 12) UBUNTU"
+echo $green" 13) KaliLinuxNetHunter"
+echo $green" 14) METASPLOIT"
+echo $green" 15) DIEJOUBU"
+echo $green" 16) ATSCAN"
+echo $green" 17) FB Crack(MBF)"
+echo $green" 18) ROUTERSPLOIT"
+echo $green" 19) Hash-Buster"
+echo $green" 20) HAKKU"
+echo $green" 21) T00Ls-B4J1N64Nv6"
+echo $green" 22) IPGeoLocation"
+echo $green" 23) WEEMAN"
+echo $green" 24) OSIF"
+echo $green" 25) InstaBOT"
+echo $cyan" 00) Exit"
 read -p " root@ErickGansSangad~# " bro;
 
 if [ $bro = 1 ] || [ $bro = 01 ]
@@ -200,7 +168,7 @@ echo " NOTE : (1000 Itu Bisa Diganti Sesuai Selera Kalian,, Itu Paket Yg Akan Ki
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 1 ] || [ $bro = 01 ]
+if [ $bro = 6 ] || [ $bro = 06 ]
 then
 clear
 echo $red" Installing AOCDEFACE "
@@ -217,7 +185,7 @@ echo " $ sh AOC.sh "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 2 ] || [ $bro = 02 ]
+if [ $bro = 7 ] || [ $bro = 07 ]
 then
 clear
 echo $red" Installing D-TECT "
@@ -235,7 +203,7 @@ echo " $ python2 d-tect.py "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 3 ] || [ $bro = 03 ]
+if [ $bro = 8 ] || [ $bro = 08 ]
 then
 clear
 echo $red" Installing RECONDOG "
@@ -254,7 +222,7 @@ echo " $ python2 dog.py "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 4 ] || [ $bro = 04 ]
+if [ $bro = 9 ] || [ $bro = 09 ]
 then
 clear
 echo $red" Installing SQLMAP "
@@ -273,7 +241,7 @@ echo " NOTE : (--dbs) bisa diganti dengan yg lain seperti (--tables) (--columns)
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 5 ] || [ $bro = 05 ]
+if [ $bro = 10 ] || [ $bro = 10 ]
 then
 clear
 echo $red" Installing AdminFinder "
@@ -291,7 +259,7 @@ echo " $ python2 AdminFinder.py "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 6 ] || [ $bro = 06 ]
+if [ $bro = 11 ] || [ $bro = 11 ]
 then
 clear
 echo $red" Installing ArchLinux "
@@ -314,7 +282,7 @@ echo " $ ./startarch "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 7 ] || [ $bro = 07 ]
+if [ $bro = 12 ] || [ $bro = 12 ]
 then
 clearecho $red" Installing UBUNTU "
 sleep 1
@@ -333,7 +301,7 @@ echo " $ ./start-ubuntu.sh "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 8 ] || [ $bro = 08 ]
+if [ $bro = 13 ] || [ $bro = 13 ]
 then
 clear
 echo $red" Installing KaliLinuxNetHunter "
@@ -349,7 +317,7 @@ echo " $ ./kalinethunter "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 9 ] || [ $bro = 09 ]
+if [ $bro = 14 ] || [ $bro = 14 ]
 then
 clear
 echo $red" Installing METASPLOIT "
@@ -371,7 +339,7 @@ echo " Tunggu Hingga Selesai Prosesnya "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 10 ] || [ $bro = 10 ]
+if [ $bro = 15 ] || [ $bro = 15 ]
 then
 clear
 echo $red" Installing DIEJOUBU "
@@ -389,7 +357,7 @@ echo " $ php daijobu.php "
 echo $green" B E R H A S I L_C O K "
 fi
 
-if [ $bro = 11 ] || [ $bro = 11 ]
+if [ $bro = 16 ] || [ $bro = 16 ]
 then
 clear
 echo $red" Installing ATSCAN "
@@ -401,7 +369,7 @@ cpan install URI::Escape
 echo $lime" BERHASIL_COK "
 fi
 
-if [ $bro = 12 ] || [ $bro = 12 ]
+if [ $bro = 17 ] || [ $bro = 17 ]
 then
 clear
 echo $red" Installing FB Crack(MBF) "
@@ -420,7 +388,7 @@ echo " $ python2 mbf.py "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 13 ] || [ $bro = 13 ]
+if [ $bro = 18 ] || [ $bro = 18 ]
 then
 clear
 echo $red" Installing ROUTERSPLOIT "
@@ -450,7 +418,7 @@ echo " $ -run "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 14 ] || [ $bro = 14 ]
+if [ $bro = 19 ] || [ $bro = 19 ]
 then
 clear
 echo $red" Installing Hash-Buster "
@@ -466,7 +434,7 @@ echo " $ python2 hash.py "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 15 ] || [ $bro = 15 ]
+if [ $bro = 20 ] || [ $bro = 20 ]
 then
 clear
 echo $red" Installing HAKKU "
@@ -494,7 +462,7 @@ echo " $ run "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 16 ] || [ $bro = 16 ]
+if [ $bro = 21 ] || [ $bro = 21 ]
 then
 clear
 echo $red" Installing T00Ls-B4J1N64Nv6 "
@@ -518,7 +486,7 @@ echo " Password : Gans "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 17 ] || [ $bro = 17 ]
+if [ $bro = 22 ] || [ $bro = 22 ]
 then
 clear
 echo $red" Installing IPGeoLocation "
@@ -545,7 +513,7 @@ echo " Contoh : ping www.google.com "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 18 ] || [ $bro = 18 ]
+if [ $bro = 23 ] || [ $bro = 23 ]
 then
 clear
 echo $red" Installing WEEMAN "
@@ -575,7 +543,7 @@ echo " Jika Sudah Dibuka Si Admin Saat Dia Login Nanti Email Dan Password Terter
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 19 ] || [ $bro = 19 ]
+if [ $bro = 24 ] || [ $bro = 24 ]
 then
 clear
 echo $red" Installing OSIF "
@@ -593,7 +561,7 @@ echo " python2 osif.py "
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 20 ] || [ $bro = 20 ]
+if [ $bro = 25 ] || [ $bro = 25 ]
 then
 clear
 echo $red" Installing InstaBOT "
@@ -620,7 +588,7 @@ echo " Nah Nanti Kalian Akan Diminta Mengisi Username Dan Password,, Terima Kasi
 echo $green" BERHASIL_COK "
 fi
 
-if [ $bro = 21 ] || [ $bro = 21 ]
+if [ $bro = 00 ] || [ $bro = 00 ]
 then
 echo $cyan" Thanks To Team Lulz'Sec Indo Team "
 sleep 1
