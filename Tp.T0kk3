@@ -30,9 +30,9 @@ echo $cyan"   ╚════╝  ╚═╗#Tp.T0kk3╚═════╝"
 echo $cyan"  ╔╔╔══██║██╔════╝██╔══██╗══╗═"
 echo $cyan"  ║ ═╝ ══════  ║  ═══════╔═██═╗"
 echo $cyan"   ╔╔════██ ╝█████══██══██ ║══"
-echo $cyan" ║╚═    ╔═╝  ║      ║  ╔══██═╝"
+echo $cyan"  ╚════╔═╝  ║═════════ ╔══██═╝"
 echo $cyan"  ██╔══██═╔██╝══██═════██║═══╗"
-echo $cyan"  ║      ╔═╝ ═════════ ╔═══██══"
+echo $cyan"  ║═════╔═╝ ═════════ ╔═══██══"
 echo $cyan"  ██║ █████████═══██████╔╝═══╗"
 echo $cyan"  ╔═════════ #Tp.T0kk3 ════════"
 echo $cyan"  ╚═╝██╚═╝╚══════════╝╚════╝██"
@@ -62,7 +62,7 @@ echo $green" 18) WEEMAN"
 echo $green" 19) OSIF"
 echo $green" 20) InstaBOT"
 echo $cyan" 21) Exit"
-read -p " root@ErickGansSangad:~ " bro;
+read -p " root@ErickGansSangad~# " bro;
 
 if [ $bro = 1 ] || [ $bro = 01 ]
 then
