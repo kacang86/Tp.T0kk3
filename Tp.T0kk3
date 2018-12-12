@@ -590,11 +590,16 @@ fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
 then
-echo $cyan" Thanks To Team Lulz'Sec Indo Team "
+echo $cyan" Thanks To Team "
+sleep 1
+echo $cyan" Lulz'Sec Indo Team "
 sleep 1
 echo $cyan" Kutu Buku Cyber Team Network "
 sleep 1
+echo $cyan" We Are Otaku "
+sleep 1
 echo $cyan" and ALL Team Indonesian Cyber "
+sleep 1
 echo $cyan" Created Erick Gans Sangad "
 sleep 1
 echo $cyan" Sae Lu Biji Onta :V "
