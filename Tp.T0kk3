@@ -25,6 +25,17 @@ echo $cyan"[#]> Erick Gans Eaaa ... "
 read enter
 exit
 }
+echo $cyan"  ████████████═███████═██████╗"
+echo $cyan"     ╚════╝  ╚═╗#Tp.T0kk3╚═════╝"
+echo $cyan"  ╔╔╔══██║██╔════╝██╔══██╗══╗═"
+echo $cyan"  ║ ═╝ ══════  ║  ═══════╔═██═╗"
+echo $cyan"   ╔╔════██ ╝█████══██══██ ║══"
+echo $cyan"   ║╚═    ╔═╝  ║      ║  ╔══██═╝"
+echo $cyan"  ██╔══██═╔██╝══██═════██║═══╗"
+echo $cyan"  ║      ╔═╝ ═════════ ╔═══██══"
+echo $cyan"  ██║ █████████═══██████╔╝═══╗"
+echo $cyan"  ╔═════════ #Tp.T0kk3 ════════"
+echo $cyan"  ╚═╝██╚═╝╚══════════╝╚════╝██"
 echo $green"========================================================"
 echo $cyan" = Author : Tp.T00k3                                    ="
 echo $cyan" = Friend : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y         ="
