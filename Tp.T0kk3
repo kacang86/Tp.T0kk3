@@ -25,12 +25,11 @@ echo $cyan"[#]> Erick Gans Eaaa ... "
 read enter
 exit
 }
-echo $green"================================================"
-echo $cyan" = Author : Tp.T00k3                            ="
-echo $cyan" = Friend : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y ="
-echo $cyan" = Team : Lulz'Sec Indo Team                    ="
-echo $cyan" = Thanks To : Kutu Buku Cyber Network          ="
-echo $green"================================================"
+echo $green"========================================================"
+echo $cyan" = Author : Tp.T00k3                                    ="
+echo $cyan" = Friend : Mr.Grim - Sandi LulzSec01 - Mr.CL4Y         ="
+echo $cyan" = Team : Lulz'Sec Indo Team -  Kutu Buku Cyber Network ="
+echo $green"========================================================"
 echo $green" 01) AOCDEFACE"
 echo $green" 02) D-TECT"
 echo $green" 03) RECONDOG"
